@@ -30,3 +30,4 @@ print(translated)
 # pyperclip.copy(translated)
 
 print('im a new change')
+print('im another new change')
