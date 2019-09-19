@@ -1,8 +1,8 @@
 import pyperclip
 
-message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
+message = 'i own a real car yazan ownes a hyundai'
 
-key=13
+key=-13
 
 mode= 'decrypt' #set to either encrypt' or 'decrypt'.
 

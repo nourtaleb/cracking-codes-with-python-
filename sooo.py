@@ -15,11 +15,13 @@ for symbol in message:
             translatedindex = symbolindex+key
         elif mode ==True:
             translatedindex = symbolindex-key 
+
+        translatedindex = translatedindex %len(SYMBOLS)
     
-        if translatedindex>=len(SYMBOLS):
-            translatedindex= translatedindex - len(SYMBOLS)
-        elif translatedindex<0:
-            translatedindex = translatedindex + len(SYMBOLS)
+        # if translatedindex>=len(SYMBOLS):
+        #     translatedindex= translatedindex - len(SYMBOLS)
+        # elif translatedindex<0:
+        #     translatedindex = translatedindex + len(SYMBOLS)
 
         translated = translated + SYMBOLS [translatedindex]
     else:
